@@ -131,6 +131,7 @@ html {
 /* biography */
 
 #bio {
+    background: url('../img/biography.jpg')no-repeat center/cover;
     border-top: 5px solid rgb(15, 204, 238);
     display: flex;
     align-items: center;
