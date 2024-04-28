@@ -1,0 +1,173 @@
+.navbar {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.navbar h2{
+    font-size: 1.4rem;
+}
+
+#left{
+    font-size: 1.2rem;
+}
+
+.list ul{
+    padding: 0px;
+}
+
+.list ul li a{
+    font-size: 1.2rem;
+    padding: 0px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.home-para{
+    margin: 40px 10px;
+}
+
+.home-para p{
+    margin: 0px;
+}
+
+#home h2{
+    font-size: 2.2rem;
+}
+
+#home img{
+    height: 200px;
+    width: auto;
+}
+
+#home a{
+    font-size: 1.4rem;
+}
+
+.home-para div{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:588px){
+    .navbar {
+        justify-content: center;
+    }
+
+    #home img{
+        display: none;
+    }
+
+    #bio img{
+        display: none
+    }
+}
+
+#bio h1{
+    font-size: 2.2rem;
+}
+
+#bio img{
+    height: 200px;
+    width: auto;
+}
+
+#bio p{
+    font-size: 1.6rem;
+}
+
+#read-more a {
+    font-size: 1.6rem;
+    padding: 10px 20px;
+}
+
+.gallery-inside img {
+    border: 2px solid red;
+    height: 120px;
+}
+
+#gallery h1 {
+    font-size: 2rem;
+    filter: drop-shadow(0px 0px 0px);
+}
+
+.timer{
+    font-size: 2rem;
+    padding: 34px;
+}
+
+h1{
+    box-shadow: 0px 0px 5px 5px green;
+    filter: drop-shadow(10px 10px 5px red);
+}
+
+#location h2{
+    font-size: 4rem;
+}
+
+#location p{
+    font-size: 2rem;
+}
+
+#reply{
+    font-size: 1.6rem;
+    padding: 0px;
+}
+
+#forms-confm{
+    width: 250px;
+    margin: 20px auto;
+}
+
+#forms-confm button{
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.form-class{
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+#location{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#location img{
+    height: 80px;
+}
+
+#location p{
+    font-size: 1.6rem;
+}
+
+#location h2{
+    font-size: 3rem;
+}
+
+#mapsin{
+    display: none;
+}
+
+#contact h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#contact > div{
+    width: 400px;
+    height: auto;
+}
+
+#contact p{
+    font-size: 1rem;
+}
+
+#contact a{
+    font-size: 1rem;
+}
+
+#footerrr h4{
+    font-size: 0.8rem;
+}
